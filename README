@@ -1,0 +1,13 @@
+Hybrid USB and Bluetooth keybaord firmware
+A keyboard firmware for Atmel AVR microcontrollers
+
+Features
+	- Seamless switching between USB and Bluetooth via interupts
+	- USB or battery powered with 1N5817 Diodes to prevent current flowing in the wrong direction
+	- 3.3V operation reduced power consumption and better logic compatability
+	- 74HC4514 and 74HC251 logic ICs for reduced IO pin usage (8 pins for 16x8 matrix)
+	- Indicator LEDs with PWM brightness control
+	
+Relatively sparse documentation can be found in the doc folder.
+You can use Fritzing to open my .fzz project file, or just look at the breadboard and schematic images
+NOTE: You will have to seperate the VBUS and VCC by cutting the trace between the 5V and 3V pads on the teensy. VBUS can then be tapped from the 5V pad on the bottom of the teensy PCB

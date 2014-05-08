@@ -4,7 +4,7 @@ A keyboard firmware for Atmel AVR microcontrollers
 Features
 	- Seamless switching between USB and Bluetooth via interupts
 	- USB or battery powered with 1N5817 Diodes to prevent current flowing in the wrong direction
-	- 3.3V operation reduced power consumption and better logic compatability
+	- 3.3V operation for reduced power consumption and better logic compatability
 	- 74HC4514 and 74HC251 logic ICs for reduced IO pin usage (8 pins for 16x8 matrix)
 	- Indicator LEDs with PWM brightness control
 	
